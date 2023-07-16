@@ -2,7 +2,69 @@
 /* work sans font from google */
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans&family=Work+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans&family=Work+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">  
+/* sheard style */
 *{
 font-family: 'Work Sans', sans-serif;
+
+}
+.btn-fist{
+
+}
+
+/* HEADER STYLE */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color:  #131313;
+font-size: 2.8rem;
+font-weight: 700;
+width: 302px;
+height: 4.4rem;
+}
+nav>ul{ 
+    display: flex;
+}
+nav li{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500px;
+    margin-right: 30px;
+
+
+}
+nav li a{
+   text-decoration: none;
+    color:  #424242;
+
+}
+/* banner style */
+.banner{
+   
+    align-items: center;
+max-width: 800px;
+margin: 0px auto;
+
+}
+.banner-title{
+    font-size: 4rem;
+font-weight: 700;
+width: 832px;
+height: 225px;
+color: #131313;
+}
+.banner-discription{
+    color:  #727272;
+
+font-size: 1rem;
+font-weight: 400;
+
 }
